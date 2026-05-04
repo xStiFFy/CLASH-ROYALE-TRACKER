@@ -1,0 +1,13 @@
+/* USER DEFINED VARIABLES ONLY! */
+
+:root {
+    /* === BORDERS === */
+    --border-style: solid;
+    --border-width: 6px;
+    --border-color: black;
+
+    /* === FONT COLORS === */
+    --text-color: white;
+    --header-color: white;
+    --title-color: white;
+}

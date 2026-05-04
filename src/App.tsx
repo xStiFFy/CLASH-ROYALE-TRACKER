@@ -3,6 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Homepage from "./pages/Homepage";
+import Dashboard from "./pages/Dashboard"
+
+function App() {
+  return <Dashboard />;
+}
+
+export default App;
+
+/* THIS IS THE CONTENT OF THE DEFAULT REACT PAGE
 
 function App() {
   const [count, setCount] = useState(0)
@@ -120,3 +130,5 @@ function App() {
 }
 
 export default App
+
+*/
