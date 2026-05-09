@@ -4,7 +4,7 @@ import trophy from '../assets/trophy.png'
 import rank from '../assets/ranks/Grand_Champion.avif'
 import './Dashboard.css'
 import '../index.css'
-import { NavLink } from "react-router-dom"
+import NavBar from '../components/NavBar'
 
 function Dashboard() {
 
@@ -20,35 +20,7 @@ function Dashboard() {
                 </div>
             </header>
 
-            <nav className="toolbar" id="mainToolbar">
-                <ul>
-                    <li>
-                        <NavLink to="/analytics" className="toolbarButton">
-                            ANALYTICS
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/matchups" className="toolbarButton">
-                            MATCHUPS
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/" end className="toolbarButton">
-                            HOME
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/deck-builder" className="toolbarButton">
-                            DECK_BUILDER
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/settings" className="toolbarButton">
-                            SETTINGS
-                        </NavLink>
-                    </li>
-                </ul>
-            </nav>
+            <NavBar />
 
             <section className="mainContent">
 

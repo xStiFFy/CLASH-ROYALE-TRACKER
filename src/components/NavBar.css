@@ -1,0 +1,59 @@
+/* ===== TOOLBAR ===== */
+
+.toolbar {
+  width: 100%;
+  background: #0f4fa8;
+  border-bottom: var(--divider-width, 6px) solid var(--divider-color, black);
+}
+
+.toolbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.toolbar li {
+  display: flex;
+  flex: 1;
+}
+
+.toolbarButton {
+  padding: 14px 28px;
+  border: none;
+  border-left: 3px solid black;
+
+  background: transparent;
+  color: white;
+
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+
+  display: block;
+  width: 100%;
+
+  text-decoration: none;
+  color: var(--text-color, white);
+}
+
+.toolbar li:last-child .toolbarButton {
+  border-right: 3px solid black;
+}
+
+.toolbarButton:hover {
+  background: rgba(255, 255, 255, 0.15);
+  text-decoration: none;
+}
+
+.toolbarButton:focus-visible {
+  outline: 3px solid white;
+  outline-offset: -6px;
+}
+
+.toolbarButton.active {
+  background: rgba(0, 0, 0, 0.25);
+}

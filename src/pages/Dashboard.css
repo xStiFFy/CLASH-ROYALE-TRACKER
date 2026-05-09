@@ -129,6 +129,8 @@ I just couldn't get this to work as intended
 
 
 /* ===== TOOLBAR ===== */
+/* Toolbar rules were relocated to the NavBar.css file, which is applied directly to the NavBar.tsx component.
+NOTE: Only change these rules if you want to overwrite the default display of the NavBar component.
 
 .toolbar {
   width: 100%;
@@ -188,6 +190,7 @@ I just couldn't get this to work as intended
   background: rgba(0, 0, 0, 0.25);
 }
 
+*/
 
 /* ===== MAIN CONTENT ===== */
 
